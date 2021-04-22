@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/Users/etblh/Documents/workspace/hw_dungeon/build",
+  "command": "/usr/bin/clang++   -I/Users/etblh/Documents/workspace/hw_dungeon/build -I/Users/etblh/Documents/workspace/hw_dungeon/include -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=c++11 -o CMakeFiles/Dungeon.dir/src/controller.cpp.o -c /Users/etblh/Documents/workspace/hw_dungeon/src/controller.cpp",
+  "file": "/Users/etblh/Documents/workspace/hw_dungeon/src/controller.cpp"
+},
+{
+  "directory": "/Users/etblh/Documents/workspace/hw_dungeon/build",
+  "command": "/usr/bin/clang++   -I/Users/etblh/Documents/workspace/hw_dungeon/build -I/Users/etblh/Documents/workspace/hw_dungeon/include -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=c++11 -o CMakeFiles/Dungeon.dir/src/dto.cpp.o -c /Users/etblh/Documents/workspace/hw_dungeon/src/dto.cpp",
+  "file": "/Users/etblh/Documents/workspace/hw_dungeon/src/dto.cpp"
+},
+{
+  "directory": "/Users/etblh/Documents/workspace/hw_dungeon/build",
+  "command": "/usr/bin/clang++   -I/Users/etblh/Documents/workspace/hw_dungeon/build -I/Users/etblh/Documents/workspace/hw_dungeon/include -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=c++11 -o CMakeFiles/Dungeon.dir/src/main.cpp.o -c /Users/etblh/Documents/workspace/hw_dungeon/src/main.cpp",
+  "file": "/Users/etblh/Documents/workspace/hw_dungeon/src/main.cpp"
+},
+{
+  "directory": "/Users/etblh/Documents/workspace/hw_dungeon/build",
+  "command": "/usr/bin/clang++   -I/Users/etblh/Documents/workspace/hw_dungeon/build -I/Users/etblh/Documents/workspace/hw_dungeon/include -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=c++11 -o CMakeFiles/Dungeon.dir/src/node/player.cpp.o -c /Users/etblh/Documents/workspace/hw_dungeon/src/node/player.cpp",
+  "file": "/Users/etblh/Documents/workspace/hw_dungeon/src/node/player.cpp"
+},
+{
+  "directory": "/Users/etblh/Documents/workspace/hw_dungeon/build",
+  "command": "/usr/bin/clang++   -I/Users/etblh/Documents/workspace/hw_dungeon/build -I/Users/etblh/Documents/workspace/hw_dungeon/include -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=c++11 -o CMakeFiles/Dungeon.dir/src/service.cpp.o -c /Users/etblh/Documents/workspace/hw_dungeon/src/service.cpp",
+  "file": "/Users/etblh/Documents/workspace/hw_dungeon/src/service.cpp"
+},
+{
+  "directory": "/Users/etblh/Documents/workspace/hw_dungeon/build",
+  "command": "/usr/bin/clang++   -I/Users/etblh/Documents/workspace/hw_dungeon/build -I/Users/etblh/Documents/workspace/hw_dungeon/include -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=c++11 -o CMakeFiles/Dungeon.dir/src/view/view.cpp.o -c /Users/etblh/Documents/workspace/hw_dungeon/src/view/view.cpp",
+  "file": "/Users/etblh/Documents/workspace/hw_dungeon/src/view/view.cpp"
+}
+]
