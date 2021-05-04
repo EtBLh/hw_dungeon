@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="left-up" width="10" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="1">
+ <editorsettings>
+  <export target="map1..json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" source="../DesertSands.tsx"/>
+ <layer id="1" name="base" width="10" height="10">
+  <data encoding="csv">
+1,56,3,3,3,5,2,3,2,4,
+14,31,31,31,31,31,31,31,31,17,
+14,19,31,31,31,31,29,31,31,30,
+14,31,31,29,31,31,31,31,31,17,
+14,66,66,66,15,15,15,15,15,30,
+14,31,31,28,21,21,21,21,21,30,
+27,31,31,28,28,28,29,31,31,30,
+14,31,31,29,28,28,31,31,31,49,
+14,31,31,31,19,28,31,31,31,30,
+40,42,42,41,35,55,22,41,42,43
+</data>
+ </layer>
+ <layer id="3" name="decoration" width="10" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,68,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,7,0,0,69,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,77,78,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>

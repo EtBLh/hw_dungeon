@@ -61,6 +61,19 @@
         "typeinfo": "cpp",
         "unordered_map": "cpp",
         "utility": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "fstream": "cpp",
+        "iomanip": "cpp",
+        "__functional_03": "cpp",
+        "__functional_base_03": "cpp",
+        "deque": "cpp",
+        "__memory": "cpp",
+        "memory_resource": "cpp",
+        "filesystem": "cpp",
+        "forward_list": "cpp",
+        "numeric": "cpp",
+        "stack": "cpp",
+        "valarray": "cpp",
+        "clocale": "cpp"
     }
 }

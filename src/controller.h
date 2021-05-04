@@ -1,17 +1,19 @@
 #pragma once
 #include "dto.h"
 #include "view/view.h"
-#include "service.h"
+#include "const.h"
+#include "node/player.h"
 #include <SFML/graphics.hpp>
 
 namespace Dungeon{
     class Controller{
     private:
         Dto& dto = Dto::getInstance();
-        View* view;
-        Service service;
+        sf::RenderWindow* window = 
+            new sf::RenderWindow(sf::VideoMode(WINDOW_WIDTH,WINDOW_HEIGHT), "Dungeon");
+        View* view = nullptr;
     public:
-        Controller(View* view) : view(view) {};
+        Controller(View* view) : view(view) { dto.player = new Player(); };
         void game_start();
     };
 }

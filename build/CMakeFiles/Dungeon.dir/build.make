@@ -83,9 +83,22 @@ CMakeFiles/Dungeon.dir/src/dto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dungeon.dir/src/dto.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etblh/Documents/workspace/hw_dungeon/src/dto.cpp -o CMakeFiles/Dungeon.dir/src/dto.cpp.s
 
+CMakeFiles/Dungeon.dir/src/input_reader.cpp.o: CMakeFiles/Dungeon.dir/flags.make
+CMakeFiles/Dungeon.dir/src/input_reader.cpp.o: ../src/input_reader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/etblh/Documents/workspace/hw_dungeon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Dungeon.dir/src/input_reader.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dungeon.dir/src/input_reader.cpp.o -c /Users/etblh/Documents/workspace/hw_dungeon/src/input_reader.cpp
+
+CMakeFiles/Dungeon.dir/src/input_reader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dungeon.dir/src/input_reader.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/etblh/Documents/workspace/hw_dungeon/src/input_reader.cpp > CMakeFiles/Dungeon.dir/src/input_reader.cpp.i
+
+CMakeFiles/Dungeon.dir/src/input_reader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dungeon.dir/src/input_reader.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etblh/Documents/workspace/hw_dungeon/src/input_reader.cpp -o CMakeFiles/Dungeon.dir/src/input_reader.cpp.s
+
 CMakeFiles/Dungeon.dir/src/main.cpp.o: CMakeFiles/Dungeon.dir/flags.make
 CMakeFiles/Dungeon.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/etblh/Documents/workspace/hw_dungeon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Dungeon.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/etblh/Documents/workspace/hw_dungeon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Dungeon.dir/src/main.cpp.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dungeon.dir/src/main.cpp.o -c /Users/etblh/Documents/workspace/hw_dungeon/src/main.cpp
 
 CMakeFiles/Dungeon.dir/src/main.cpp.i: cmake_force
@@ -96,9 +109,35 @@ CMakeFiles/Dungeon.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dungeon.dir/src/main.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etblh/Documents/workspace/hw_dungeon/src/main.cpp -o CMakeFiles/Dungeon.dir/src/main.cpp.s
 
+CMakeFiles/Dungeon.dir/src/node/monster.cpp.o: CMakeFiles/Dungeon.dir/flags.make
+CMakeFiles/Dungeon.dir/src/node/monster.cpp.o: ../src/node/monster.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/etblh/Documents/workspace/hw_dungeon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Dungeon.dir/src/node/monster.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dungeon.dir/src/node/monster.cpp.o -c /Users/etblh/Documents/workspace/hw_dungeon/src/node/monster.cpp
+
+CMakeFiles/Dungeon.dir/src/node/monster.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dungeon.dir/src/node/monster.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/etblh/Documents/workspace/hw_dungeon/src/node/monster.cpp > CMakeFiles/Dungeon.dir/src/node/monster.cpp.i
+
+CMakeFiles/Dungeon.dir/src/node/monster.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dungeon.dir/src/node/monster.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etblh/Documents/workspace/hw_dungeon/src/node/monster.cpp -o CMakeFiles/Dungeon.dir/src/node/monster.cpp.s
+
+CMakeFiles/Dungeon.dir/src/node/npc.cpp.o: CMakeFiles/Dungeon.dir/flags.make
+CMakeFiles/Dungeon.dir/src/node/npc.cpp.o: ../src/node/npc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/etblh/Documents/workspace/hw_dungeon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Dungeon.dir/src/node/npc.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dungeon.dir/src/node/npc.cpp.o -c /Users/etblh/Documents/workspace/hw_dungeon/src/node/npc.cpp
+
+CMakeFiles/Dungeon.dir/src/node/npc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dungeon.dir/src/node/npc.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/etblh/Documents/workspace/hw_dungeon/src/node/npc.cpp > CMakeFiles/Dungeon.dir/src/node/npc.cpp.i
+
+CMakeFiles/Dungeon.dir/src/node/npc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dungeon.dir/src/node/npc.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etblh/Documents/workspace/hw_dungeon/src/node/npc.cpp -o CMakeFiles/Dungeon.dir/src/node/npc.cpp.s
+
 CMakeFiles/Dungeon.dir/src/node/player.cpp.o: CMakeFiles/Dungeon.dir/flags.make
 CMakeFiles/Dungeon.dir/src/node/player.cpp.o: ../src/node/player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/etblh/Documents/workspace/hw_dungeon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Dungeon.dir/src/node/player.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/etblh/Documents/workspace/hw_dungeon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Dungeon.dir/src/node/player.cpp.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dungeon.dir/src/node/player.cpp.o -c /Users/etblh/Documents/workspace/hw_dungeon/src/node/player.cpp
 
 CMakeFiles/Dungeon.dir/src/node/player.cpp.i: cmake_force
@@ -109,22 +148,74 @@ CMakeFiles/Dungeon.dir/src/node/player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dungeon.dir/src/node/player.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etblh/Documents/workspace/hw_dungeon/src/node/player.cpp -o CMakeFiles/Dungeon.dir/src/node/player.cpp.s
 
-CMakeFiles/Dungeon.dir/src/service.cpp.o: CMakeFiles/Dungeon.dir/flags.make
-CMakeFiles/Dungeon.dir/src/service.cpp.o: ../src/service.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/etblh/Documents/workspace/hw_dungeon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Dungeon.dir/src/service.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dungeon.dir/src/service.cpp.o -c /Users/etblh/Documents/workspace/hw_dungeon/src/service.cpp
+CMakeFiles/Dungeon.dir/src/node/portal.cpp.o: CMakeFiles/Dungeon.dir/flags.make
+CMakeFiles/Dungeon.dir/src/node/portal.cpp.o: ../src/node/portal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/etblh/Documents/workspace/hw_dungeon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Dungeon.dir/src/node/portal.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dungeon.dir/src/node/portal.cpp.o -c /Users/etblh/Documents/workspace/hw_dungeon/src/node/portal.cpp
 
-CMakeFiles/Dungeon.dir/src/service.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dungeon.dir/src/service.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/etblh/Documents/workspace/hw_dungeon/src/service.cpp > CMakeFiles/Dungeon.dir/src/service.cpp.i
+CMakeFiles/Dungeon.dir/src/node/portal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dungeon.dir/src/node/portal.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/etblh/Documents/workspace/hw_dungeon/src/node/portal.cpp > CMakeFiles/Dungeon.dir/src/node/portal.cpp.i
 
-CMakeFiles/Dungeon.dir/src/service.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dungeon.dir/src/service.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etblh/Documents/workspace/hw_dungeon/src/service.cpp -o CMakeFiles/Dungeon.dir/src/service.cpp.s
+CMakeFiles/Dungeon.dir/src/node/portal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dungeon.dir/src/node/portal.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etblh/Documents/workspace/hw_dungeon/src/node/portal.cpp -o CMakeFiles/Dungeon.dir/src/node/portal.cpp.s
+
+CMakeFiles/Dungeon.dir/src/node/room.cpp.o: CMakeFiles/Dungeon.dir/flags.make
+CMakeFiles/Dungeon.dir/src/node/room.cpp.o: ../src/node/room.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/etblh/Documents/workspace/hw_dungeon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Dungeon.dir/src/node/room.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dungeon.dir/src/node/room.cpp.o -c /Users/etblh/Documents/workspace/hw_dungeon/src/node/room.cpp
+
+CMakeFiles/Dungeon.dir/src/node/room.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dungeon.dir/src/node/room.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/etblh/Documents/workspace/hw_dungeon/src/node/room.cpp > CMakeFiles/Dungeon.dir/src/node/room.cpp.i
+
+CMakeFiles/Dungeon.dir/src/node/room.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dungeon.dir/src/node/room.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etblh/Documents/workspace/hw_dungeon/src/node/room.cpp -o CMakeFiles/Dungeon.dir/src/node/room.cpp.s
+
+CMakeFiles/Dungeon.dir/src/node/treasure.cpp.o: CMakeFiles/Dungeon.dir/flags.make
+CMakeFiles/Dungeon.dir/src/node/treasure.cpp.o: ../src/node/treasure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/etblh/Documents/workspace/hw_dungeon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Dungeon.dir/src/node/treasure.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dungeon.dir/src/node/treasure.cpp.o -c /Users/etblh/Documents/workspace/hw_dungeon/src/node/treasure.cpp
+
+CMakeFiles/Dungeon.dir/src/node/treasure.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dungeon.dir/src/node/treasure.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/etblh/Documents/workspace/hw_dungeon/src/node/treasure.cpp > CMakeFiles/Dungeon.dir/src/node/treasure.cpp.i
+
+CMakeFiles/Dungeon.dir/src/node/treasure.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dungeon.dir/src/node/treasure.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etblh/Documents/workspace/hw_dungeon/src/node/treasure.cpp -o CMakeFiles/Dungeon.dir/src/node/treasure.cpp.s
+
+CMakeFiles/Dungeon.dir/src/service/game_loader.cpp.o: CMakeFiles/Dungeon.dir/flags.make
+CMakeFiles/Dungeon.dir/src/service/game_loader.cpp.o: ../src/service/game_loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/etblh/Documents/workspace/hw_dungeon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Dungeon.dir/src/service/game_loader.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dungeon.dir/src/service/game_loader.cpp.o -c /Users/etblh/Documents/workspace/hw_dungeon/src/service/game_loader.cpp
+
+CMakeFiles/Dungeon.dir/src/service/game_loader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dungeon.dir/src/service/game_loader.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/etblh/Documents/workspace/hw_dungeon/src/service/game_loader.cpp > CMakeFiles/Dungeon.dir/src/service/game_loader.cpp.i
+
+CMakeFiles/Dungeon.dir/src/service/game_loader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dungeon.dir/src/service/game_loader.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etblh/Documents/workspace/hw_dungeon/src/service/game_loader.cpp -o CMakeFiles/Dungeon.dir/src/service/game_loader.cpp.s
+
+CMakeFiles/Dungeon.dir/src/view/sprite_loader.cpp.o: CMakeFiles/Dungeon.dir/flags.make
+CMakeFiles/Dungeon.dir/src/view/sprite_loader.cpp.o: ../src/view/sprite_loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/etblh/Documents/workspace/hw_dungeon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Dungeon.dir/src/view/sprite_loader.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dungeon.dir/src/view/sprite_loader.cpp.o -c /Users/etblh/Documents/workspace/hw_dungeon/src/view/sprite_loader.cpp
+
+CMakeFiles/Dungeon.dir/src/view/sprite_loader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dungeon.dir/src/view/sprite_loader.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/etblh/Documents/workspace/hw_dungeon/src/view/sprite_loader.cpp > CMakeFiles/Dungeon.dir/src/view/sprite_loader.cpp.i
+
+CMakeFiles/Dungeon.dir/src/view/sprite_loader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dungeon.dir/src/view/sprite_loader.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/etblh/Documents/workspace/hw_dungeon/src/view/sprite_loader.cpp -o CMakeFiles/Dungeon.dir/src/view/sprite_loader.cpp.s
 
 CMakeFiles/Dungeon.dir/src/view/view.cpp.o: CMakeFiles/Dungeon.dir/flags.make
 CMakeFiles/Dungeon.dir/src/view/view.cpp.o: ../src/view/view.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/etblh/Documents/workspace/hw_dungeon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Dungeon.dir/src/view/view.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/etblh/Documents/workspace/hw_dungeon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Dungeon.dir/src/view/view.cpp.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dungeon.dir/src/view/view.cpp.o -c /Users/etblh/Documents/workspace/hw_dungeon/src/view/view.cpp
 
 CMakeFiles/Dungeon.dir/src/view/view.cpp.i: cmake_force
@@ -139,9 +230,16 @@ CMakeFiles/Dungeon.dir/src/view/view.cpp.s: cmake_force
 Dungeon_OBJECTS = \
 "CMakeFiles/Dungeon.dir/src/controller.cpp.o" \
 "CMakeFiles/Dungeon.dir/src/dto.cpp.o" \
+"CMakeFiles/Dungeon.dir/src/input_reader.cpp.o" \
 "CMakeFiles/Dungeon.dir/src/main.cpp.o" \
+"CMakeFiles/Dungeon.dir/src/node/monster.cpp.o" \
+"CMakeFiles/Dungeon.dir/src/node/npc.cpp.o" \
 "CMakeFiles/Dungeon.dir/src/node/player.cpp.o" \
-"CMakeFiles/Dungeon.dir/src/service.cpp.o" \
+"CMakeFiles/Dungeon.dir/src/node/portal.cpp.o" \
+"CMakeFiles/Dungeon.dir/src/node/room.cpp.o" \
+"CMakeFiles/Dungeon.dir/src/node/treasure.cpp.o" \
+"CMakeFiles/Dungeon.dir/src/service/game_loader.cpp.o" \
+"CMakeFiles/Dungeon.dir/src/view/sprite_loader.cpp.o" \
 "CMakeFiles/Dungeon.dir/src/view/view.cpp.o"
 
 # External object files for target Dungeon
@@ -149,9 +247,16 @@ Dungeon_EXTERNAL_OBJECTS =
 
 Dungeon: CMakeFiles/Dungeon.dir/src/controller.cpp.o
 Dungeon: CMakeFiles/Dungeon.dir/src/dto.cpp.o
+Dungeon: CMakeFiles/Dungeon.dir/src/input_reader.cpp.o
 Dungeon: CMakeFiles/Dungeon.dir/src/main.cpp.o
+Dungeon: CMakeFiles/Dungeon.dir/src/node/monster.cpp.o
+Dungeon: CMakeFiles/Dungeon.dir/src/node/npc.cpp.o
 Dungeon: CMakeFiles/Dungeon.dir/src/node/player.cpp.o
-Dungeon: CMakeFiles/Dungeon.dir/src/service.cpp.o
+Dungeon: CMakeFiles/Dungeon.dir/src/node/portal.cpp.o
+Dungeon: CMakeFiles/Dungeon.dir/src/node/room.cpp.o
+Dungeon: CMakeFiles/Dungeon.dir/src/node/treasure.cpp.o
+Dungeon: CMakeFiles/Dungeon.dir/src/service/game_loader.cpp.o
+Dungeon: CMakeFiles/Dungeon.dir/src/view/sprite_loader.cpp.o
 Dungeon: CMakeFiles/Dungeon.dir/src/view/view.cpp.o
 Dungeon: CMakeFiles/Dungeon.dir/build.make
 Dungeon: /usr/local/lib/libsfml-graphics.2.5.1.dylib
@@ -159,7 +264,7 @@ Dungeon: /usr/local/lib/libsfml-audio.2.5.1.dylib
 Dungeon: /usr/local/lib/libsfml-window.2.5.1.dylib
 Dungeon: /usr/local/lib/libsfml-system.2.5.1.dylib
 Dungeon: CMakeFiles/Dungeon.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/etblh/Documents/workspace/hw_dungeon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Dungeon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/etblh/Documents/workspace/hw_dungeon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable Dungeon"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Dungeon.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

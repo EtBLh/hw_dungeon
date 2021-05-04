@@ -1,7 +1,12 @@
 #pragma once
-#include "node/player.h"
+#include <vector>
 
+using namespace std;
 namespace Dungeon{
+
+    class Player;
+    class Room;
+
     /**
      * Data transfer object
      * Singleton
@@ -9,18 +14,18 @@ namespace Dungeon{
     class Dto
     {
         public:
-            static Dto& getInstance()
-            {
-                static Dto instance;
-                return instance;
-            }
+            static Dto& getInstance();
             Dto(Dto const&)             = delete;
             void operator=(Dto const&)  = delete;
         
-            void set_game_state(bool s) {game_state = s;}
+            void set_game_state(bool s);
+
+            Player* player = nullptr;
+            
+            vector<Room*> room_list;
+            Room* current_room = nullptr;
         private:
-            Dto() {}
-            Player* player = new Player();
+            Dto() {};
             bool game_state = false;
     };
 }

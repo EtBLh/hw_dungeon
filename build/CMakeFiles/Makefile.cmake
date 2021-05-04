@@ -21,6 +21,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CMake.app/Contents/share/cmake-3.14/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "/Applications/CMake.app/Contents/share/cmake-3.14/Modules/Compiler/Clang.cmake"
   "/Applications/CMake.app/Contents/share/cmake-3.14/Modules/Compiler/GNU.cmake"
+  "/Applications/CMake.app/Contents/share/cmake-3.14/Modules/FindPackageHandleStandardArgs.cmake"
+  "/Applications/CMake.app/Contents/share/cmake-3.14/Modules/FindPackageMessage.cmake"
   "/Applications/CMake.app/Contents/share/cmake-3.14/Modules/Internal/CMakeCheckCompilerFlag.cmake"
   "/Applications/CMake.app/Contents/share/cmake-3.14/Modules/Platform/Apple-AppleClang-C.cmake"
   "/Applications/CMake.app/Contents/share/cmake-3.14/Modules/Platform/Apple-AppleClang-CXX.cmake"
@@ -41,6 +43,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/lib/cmake/SFML/SFMLConfigVersion.cmake"
   "/usr/local/lib/cmake/SFML/SFMLSharedTargets-release.cmake"
   "/usr/local/lib/cmake/SFML/SFMLSharedTargets.cmake"
+  "/usr/local/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake"
+  "/usr/local/lib/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake"
+  "/usr/local/lib/cmake/nlohmann_json/nlohmann_jsonTargets.cmake"
   )
 
 # The corresponding makefile is:

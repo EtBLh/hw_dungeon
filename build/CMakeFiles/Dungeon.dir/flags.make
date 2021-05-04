@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=c++11
 
-CXX_DEFINES = 
+CXX_DEFINES = -DJSON_USE_IMPLICIT_CONVERSIONS=1
 
 CXX_INCLUDES = -I/Users/etblh/Documents/workspace/hw_dungeon/build -I/Users/etblh/Documents/workspace/hw_dungeon/include -isystem /usr/local/include 
 

@@ -1,0 +1,132 @@
+{
+    "room_list": [
+        {
+            "map": "res/maps/map1.json",
+            "walls": [
+                {
+                    "x":0,
+                    "y":0,
+                    "width":1,
+                    "height":10
+                },
+                {
+                    "x":1,
+                    "y":0,
+                    "width":9,
+                    "height":1
+                },
+                {
+                    "x":9,
+                    "y":1,
+                    "width":1,
+                    "height":9
+                },
+                {
+                    "x":1,
+                    "y":9,
+                    "width":4,
+                    "height":1
+                },
+                {
+                    "x":6,
+                    "y":9,
+                    "width":4,
+                    "height":1
+                },
+                {
+                    "x":4,
+                    "y":4,
+                    "width":5,
+                    "height":1
+                }
+            ],
+            "treasure" : [
+                {
+                    "x":7,
+                    "y":0,
+                    "item":[0]
+                }
+            ],
+            "npc" : [],
+            "monster" : [],
+            "portals" : [
+                {
+                    "x":5,
+                    "y":9,
+                    "to":1
+                }
+            ]
+        },
+        {
+            "map": "res/maps/map1.json",
+            "walls": [
+                {
+                    "x":0,
+                    "y":0,
+                    "width":1,
+                    "height":10
+                },
+                {
+                    "x":1,
+                    "y":0,
+                    "width":9,
+                    "height":1
+                },
+                {
+                    "x":9,
+                    "y":1,
+                    "width":1,
+                    "height":9
+                },
+                {
+                    "x":1,
+                    "y":9,
+                    "width":4,
+                    "height":1
+                },
+                {
+                    "x":6,
+                    "y":9,
+                    "width":4,
+                    "height":1
+                },
+                {
+                    "x":4,
+                    "y":4,
+                    "width":4,
+                    "height":1
+                }
+            ],
+            "treasure" : [
+                {
+                    "x":7,
+                    "y":0,
+                    "item":[0]
+                }
+            ],
+            "npc" : [],
+            "monster" : [],
+            "portals" : [
+                {
+                    "x":5,
+                    "y":9,
+                    "to":0
+                }
+            ]
+        }
+    ],
+    "items": [
+        {
+            "name": "wooden sword",
+            "type": "weapon",
+            "damage": 10,
+            "defense": 0
+        },
+        {
+            "name": "wooden shield",
+            "type": "weapon",
+            "damage": 0,
+            "defense": 10
+        }
+    ]
+}

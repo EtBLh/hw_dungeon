@@ -224,6 +224,33 @@ src/dto.cpp.s:
 	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/dto.cpp.s
 .PHONY : src/dto.cpp.s
 
+src/input_reader.o: src/input_reader.cpp.o
+
+.PHONY : src/input_reader.o
+
+# target to build an object file
+src/input_reader.cpp.o:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/input_reader.cpp.o
+.PHONY : src/input_reader.cpp.o
+
+src/input_reader.i: src/input_reader.cpp.i
+
+.PHONY : src/input_reader.i
+
+# target to preprocess a source file
+src/input_reader.cpp.i:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/input_reader.cpp.i
+.PHONY : src/input_reader.cpp.i
+
+src/input_reader.s: src/input_reader.cpp.s
+
+.PHONY : src/input_reader.s
+
+# target to generate assembly for a file
+src/input_reader.cpp.s:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/input_reader.cpp.s
+.PHONY : src/input_reader.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -250,6 +277,60 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/node/monster.o: src/node/monster.cpp.o
+
+.PHONY : src/node/monster.o
+
+# target to build an object file
+src/node/monster.cpp.o:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/node/monster.cpp.o
+.PHONY : src/node/monster.cpp.o
+
+src/node/monster.i: src/node/monster.cpp.i
+
+.PHONY : src/node/monster.i
+
+# target to preprocess a source file
+src/node/monster.cpp.i:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/node/monster.cpp.i
+.PHONY : src/node/monster.cpp.i
+
+src/node/monster.s: src/node/monster.cpp.s
+
+.PHONY : src/node/monster.s
+
+# target to generate assembly for a file
+src/node/monster.cpp.s:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/node/monster.cpp.s
+.PHONY : src/node/monster.cpp.s
+
+src/node/npc.o: src/node/npc.cpp.o
+
+.PHONY : src/node/npc.o
+
+# target to build an object file
+src/node/npc.cpp.o:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/node/npc.cpp.o
+.PHONY : src/node/npc.cpp.o
+
+src/node/npc.i: src/node/npc.cpp.i
+
+.PHONY : src/node/npc.i
+
+# target to preprocess a source file
+src/node/npc.cpp.i:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/node/npc.cpp.i
+.PHONY : src/node/npc.cpp.i
+
+src/node/npc.s: src/node/npc.cpp.s
+
+.PHONY : src/node/npc.s
+
+# target to generate assembly for a file
+src/node/npc.cpp.s:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/node/npc.cpp.s
+.PHONY : src/node/npc.cpp.s
 
 src/node/player.o: src/node/player.cpp.o
 
@@ -278,32 +359,140 @@ src/node/player.cpp.s:
 	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/node/player.cpp.s
 .PHONY : src/node/player.cpp.s
 
-src/service.o: src/service.cpp.o
+src/node/portal.o: src/node/portal.cpp.o
 
-.PHONY : src/service.o
+.PHONY : src/node/portal.o
 
 # target to build an object file
-src/service.cpp.o:
-	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/service.cpp.o
-.PHONY : src/service.cpp.o
+src/node/portal.cpp.o:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/node/portal.cpp.o
+.PHONY : src/node/portal.cpp.o
 
-src/service.i: src/service.cpp.i
+src/node/portal.i: src/node/portal.cpp.i
 
-.PHONY : src/service.i
+.PHONY : src/node/portal.i
 
 # target to preprocess a source file
-src/service.cpp.i:
-	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/service.cpp.i
-.PHONY : src/service.cpp.i
+src/node/portal.cpp.i:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/node/portal.cpp.i
+.PHONY : src/node/portal.cpp.i
 
-src/service.s: src/service.cpp.s
+src/node/portal.s: src/node/portal.cpp.s
 
-.PHONY : src/service.s
+.PHONY : src/node/portal.s
 
 # target to generate assembly for a file
-src/service.cpp.s:
-	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/service.cpp.s
-.PHONY : src/service.cpp.s
+src/node/portal.cpp.s:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/node/portal.cpp.s
+.PHONY : src/node/portal.cpp.s
+
+src/node/room.o: src/node/room.cpp.o
+
+.PHONY : src/node/room.o
+
+# target to build an object file
+src/node/room.cpp.o:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/node/room.cpp.o
+.PHONY : src/node/room.cpp.o
+
+src/node/room.i: src/node/room.cpp.i
+
+.PHONY : src/node/room.i
+
+# target to preprocess a source file
+src/node/room.cpp.i:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/node/room.cpp.i
+.PHONY : src/node/room.cpp.i
+
+src/node/room.s: src/node/room.cpp.s
+
+.PHONY : src/node/room.s
+
+# target to generate assembly for a file
+src/node/room.cpp.s:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/node/room.cpp.s
+.PHONY : src/node/room.cpp.s
+
+src/node/treasure.o: src/node/treasure.cpp.o
+
+.PHONY : src/node/treasure.o
+
+# target to build an object file
+src/node/treasure.cpp.o:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/node/treasure.cpp.o
+.PHONY : src/node/treasure.cpp.o
+
+src/node/treasure.i: src/node/treasure.cpp.i
+
+.PHONY : src/node/treasure.i
+
+# target to preprocess a source file
+src/node/treasure.cpp.i:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/node/treasure.cpp.i
+.PHONY : src/node/treasure.cpp.i
+
+src/node/treasure.s: src/node/treasure.cpp.s
+
+.PHONY : src/node/treasure.s
+
+# target to generate assembly for a file
+src/node/treasure.cpp.s:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/node/treasure.cpp.s
+.PHONY : src/node/treasure.cpp.s
+
+src/service/game_loader.o: src/service/game_loader.cpp.o
+
+.PHONY : src/service/game_loader.o
+
+# target to build an object file
+src/service/game_loader.cpp.o:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/service/game_loader.cpp.o
+.PHONY : src/service/game_loader.cpp.o
+
+src/service/game_loader.i: src/service/game_loader.cpp.i
+
+.PHONY : src/service/game_loader.i
+
+# target to preprocess a source file
+src/service/game_loader.cpp.i:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/service/game_loader.cpp.i
+.PHONY : src/service/game_loader.cpp.i
+
+src/service/game_loader.s: src/service/game_loader.cpp.s
+
+.PHONY : src/service/game_loader.s
+
+# target to generate assembly for a file
+src/service/game_loader.cpp.s:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/service/game_loader.cpp.s
+.PHONY : src/service/game_loader.cpp.s
+
+src/view/sprite_loader.o: src/view/sprite_loader.cpp.o
+
+.PHONY : src/view/sprite_loader.o
+
+# target to build an object file
+src/view/sprite_loader.cpp.o:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/view/sprite_loader.cpp.o
+.PHONY : src/view/sprite_loader.cpp.o
+
+src/view/sprite_loader.i: src/view/sprite_loader.cpp.i
+
+.PHONY : src/view/sprite_loader.i
+
+# target to preprocess a source file
+src/view/sprite_loader.cpp.i:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/view/sprite_loader.cpp.i
+.PHONY : src/view/sprite_loader.cpp.i
+
+src/view/sprite_loader.s: src/view/sprite_loader.cpp.s
+
+.PHONY : src/view/sprite_loader.s
+
+# target to generate assembly for a file
+src/view/sprite_loader.cpp.s:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/view/sprite_loader.cpp.s
+.PHONY : src/view/sprite_loader.cpp.s
 
 src/view/view.o: src/view/view.cpp.o
 
@@ -351,15 +540,36 @@ help:
 	@echo "... src/dto.o"
 	@echo "... src/dto.i"
 	@echo "... src/dto.s"
+	@echo "... src/input_reader.o"
+	@echo "... src/input_reader.i"
+	@echo "... src/input_reader.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/node/monster.o"
+	@echo "... src/node/monster.i"
+	@echo "... src/node/monster.s"
+	@echo "... src/node/npc.o"
+	@echo "... src/node/npc.i"
+	@echo "... src/node/npc.s"
 	@echo "... src/node/player.o"
 	@echo "... src/node/player.i"
 	@echo "... src/node/player.s"
-	@echo "... src/service.o"
-	@echo "... src/service.i"
-	@echo "... src/service.s"
+	@echo "... src/node/portal.o"
+	@echo "... src/node/portal.i"
+	@echo "... src/node/portal.s"
+	@echo "... src/node/room.o"
+	@echo "... src/node/room.i"
+	@echo "... src/node/room.s"
+	@echo "... src/node/treasure.o"
+	@echo "... src/node/treasure.i"
+	@echo "... src/node/treasure.s"
+	@echo "... src/service/game_loader.o"
+	@echo "... src/service/game_loader.i"
+	@echo "... src/service/game_loader.s"
+	@echo "... src/view/sprite_loader.o"
+	@echo "... src/view/sprite_loader.i"
+	@echo "... src/view/sprite_loader.s"
 	@echo "... src/view/view.o"
 	@echo "... src/view/view.i"
 	@echo "... src/view/view.s"
