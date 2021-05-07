@@ -2,6 +2,8 @@
 #include "../const.h"
 #include "../util.hpp"
 #include "../node/player.h"
+#include "../node/monster.hpp"
+#include "../node/npc.hpp"
 #include "../node/room.hpp"
 #include <iostream>
 #include <vector>
@@ -20,7 +22,16 @@ void View::render(){
     for (vector<json>::iterator it = room->layer_list.begin(); it != room->layer_list.end(); ++it){
         draw_map_layer(*it);
     }
-    draw_character();
+    draw_character(dto.player);
+    for (monster* _monster : dto.current_room->monster_list){
+        draw_character(_monster);
+    }
+    for (npc* _npc : dto.current_room->npc_list){
+        draw_character(_npc);
+    }
+    for (particle* partic : _sprite_loader.particle_pool){
+        draw_particle(partic);
+    }
     
     this->window->display();
 }
@@ -40,14 +51,12 @@ void View::draw_map_layer(json layer){
     }
 }
 
-void View::draw_character(){
-    // cout << "drawing character" << endl;
-    sf::Sprite player_sprite = _sprite_loader.get_player_sprite();
-    Player* player = dto.player;
-    //16 * 28
-    const vector_d offset(0,(28-16)*SCALER);
-    vector_d real_pos = conv_real_pos(player->pos)-offset;
-    player_sprite.setPosition(sf::Vector2f(real_pos.x, real_pos.y));
-    player_sprite.setScale(sf::Vector2f(SCALER, SCALER));
-    window->draw(player_sprite);
+void View::draw_character(Character* charac){
+    vector_d real_pos = conv_real_pos(charac->pos);
+    charac->sprite->set_position(real_pos);
+    window->draw(charac->sprite->get_sprite());
+}
+
+void View::draw_particle(particle* partic){
+    window->draw(partic->get_sprite());
 }

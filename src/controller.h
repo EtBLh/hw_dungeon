@@ -15,5 +15,6 @@ namespace Dungeon{
     public:
         Controller(View* view) : view(view) { dto.player = new Player(); };
         void game_start();
+        void game_over();
     };
 }

@@ -13,6 +13,10 @@ SFML/Graphics.hpp
 /Users/etblh/Documents/workspace/hw_dungeon/src/dto.h
 vector
 -
+node/item.hpp
+/Users/etblh/Documents/workspace/hw_dungeon/src/node/item.hpp
+view/sprite_loader.h
+/Users/etblh/Documents/workspace/hw_dungeon/src/view/sprite_loader.h
 
 /Users/etblh/Documents/workspace/hw_dungeon/src/event.hpp
 util.hpp
@@ -23,10 +27,42 @@ string
 -
 ../event.hpp
 /Users/etblh/Documents/workspace/hw_dungeon/src/event.hpp
+../view/sprite_loader.h
+/Users/etblh/Documents/workspace/hw_dungeon/src/view/sprite_loader.h
+
+/Users/etblh/Documents/workspace/hw_dungeon/src/node/item.hpp
+string
+-
 
 /Users/etblh/Documents/workspace/hw_dungeon/src/node/monster.hpp
+character.h
+/Users/etblh/Documents/workspace/hw_dungeon/src/node/character.h
+../event.hpp
+/Users/etblh/Documents/workspace/hw_dungeon/src/event.hpp
+../dto.h
+/Users/etblh/Documents/workspace/hw_dungeon/src/dto.h
+time.h
+-
+
+/Users/etblh/Documents/workspace/hw_dungeon/src/node/npc.cpp
+npc.hpp
+/Users/etblh/Documents/workspace/hw_dungeon/src/node/npc.hpp
+room.hpp
+/Users/etblh/Documents/workspace/hw_dungeon/src/node/room.hpp
+player.h
+/Users/etblh/Documents/workspace/hw_dungeon/src/node/player.h
 
 /Users/etblh/Documents/workspace/hw_dungeon/src/node/npc.hpp
+character.h
+/Users/etblh/Documents/workspace/hw_dungeon/src/node/character.h
+../event.hpp
+/Users/etblh/Documents/workspace/hw_dungeon/src/event.hpp
+../util.hpp
+/Users/etblh/Documents/workspace/hw_dungeon/src/util.hpp
+../view/sprite_loader.h
+/Users/etblh/Documents/workspace/hw_dungeon/src/view/sprite_loader.h
+../dto.h
+/Users/etblh/Documents/workspace/hw_dungeon/src/dto.h
 
 /Users/etblh/Documents/workspace/hw_dungeon/src/node/player.cpp
 player.h
@@ -34,6 +70,8 @@ player.h
 room.hpp
 /Users/etblh/Documents/workspace/hw_dungeon/src/node/room.hpp
 iostream
+-
+cmath
 -
 
 /Users/etblh/Documents/workspace/hw_dungeon/src/node/player.h
@@ -47,22 +85,16 @@ character.h
 /Users/etblh/Documents/workspace/hw_dungeon/src/util.hpp
 ../dto.h
 /Users/etblh/Documents/workspace/hw_dungeon/src/dto.h
+../view/sprite_loader.h
+/Users/etblh/Documents/workspace/hw_dungeon/src/view/sprite_loader.h
+item.hpp
+/Users/etblh/Documents/workspace/hw_dungeon/src/node/item.hpp
+vector
+-
 
 /Users/etblh/Documents/workspace/hw_dungeon/src/node/portal.hpp
 ../util.hpp
 /Users/etblh/Documents/workspace/hw_dungeon/src/util.hpp
-
-/Users/etblh/Documents/workspace/hw_dungeon/src/node/room.cpp
-room.hpp
-/Users/etblh/Documents/workspace/hw_dungeon/src/node/room.hpp
-../dto.h
-/Users/etblh/Documents/workspace/hw_dungeon/src/dto.h
-../util.hpp
-/Users/etblh/Documents/workspace/hw_dungeon/src/util.hpp
-player.h
-/Users/etblh/Documents/workspace/hw_dungeon/src/node/player.h
-iostream
--
 
 /Users/etblh/Documents/workspace/hw_dungeon/src/node/room.hpp
 nlohmann/json.hpp
@@ -83,23 +115,13 @@ treasure.hpp
 /Users/etblh/Documents/workspace/hw_dungeon/src/node/treasure.hpp
 
 /Users/etblh/Documents/workspace/hw_dungeon/src/node/treasure.hpp
-
-/Users/etblh/Documents/workspace/hw_dungeon/src/service/game_loader.cpp
-game_loader.hpp
-/Users/etblh/Documents/workspace/hw_dungeon/src/service/game_loader.hpp
-../node/room.hpp
-/Users/etblh/Documents/workspace/hw_dungeon/src/node/room.hpp
+item.hpp
+/Users/etblh/Documents/workspace/hw_dungeon/src/node/item.hpp
+../dto.h
+/Users/etblh/Documents/workspace/hw_dungeon/src/dto.h
 ../util.hpp
 /Users/etblh/Documents/workspace/hw_dungeon/src/util.hpp
-../dto.h
-/Users/etblh/Documents/workspace/hw_dungeon/src/dto.h
-nlohmann/json.hpp
--
-
-/Users/etblh/Documents/workspace/hw_dungeon/src/service/game_loader.hpp
-../dto.h
-/Users/etblh/Documents/workspace/hw_dungeon/src/dto.h
-nlohmann/json.hpp
+vector
 -
 
 /Users/etblh/Documents/workspace/hw_dungeon/src/util.hpp
@@ -115,38 +137,24 @@ functional
 -
 const.h
 /Users/etblh/Documents/workspace/hw_dungeon/src/const.h
+cmath
+-
 
 /Users/etblh/Documents/workspace/hw_dungeon/src/view/sprite_loader.h
 SFML/graphics.hpp
 -
-
-/Users/etblh/Documents/workspace/hw_dungeon/src/view/view.cpp
-view.h
-/Users/etblh/Documents/workspace/hw_dungeon/src/view/view.h
+vector
+-
+ctime
+-
+cstring
+-
+iostream
+-
 ../const.h
 /Users/etblh/Documents/workspace/hw_dungeon/src/const.h
 ../util.hpp
 /Users/etblh/Documents/workspace/hw_dungeon/src/util.hpp
-../node/player.h
-/Users/etblh/Documents/workspace/hw_dungeon/src/node/player.h
-../node/room.hpp
-/Users/etblh/Documents/workspace/hw_dungeon/src/node/room.hpp
-iostream
--
-vector
--
-nlohmann/json.hpp
--
-
-/Users/etblh/Documents/workspace/hw_dungeon/src/view/view.h
-SFML/Graphics.hpp
--
-nlohmann/json.hpp
--
-sprite_loader.h
-/Users/etblh/Documents/workspace/hw_dungeon/src/view/sprite_loader.h
-../dto.h
-/Users/etblh/Documents/workspace/hw_dungeon/src/dto.h
 
 /usr/local/include/SFML/Config.hpp
 TargetConditionals.h

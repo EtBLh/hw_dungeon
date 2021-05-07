@@ -40,77 +40,355 @@
                     "height":1
                 }
             ],
-            "treasure" : [
+            "treasures" : [
                 {
                     "x":7,
                     "y":0,
+                    "width":1,
+                    "height":1,
                     "item":[0]
                 }
             ],
-            "npc" : [],
-            "monster" : [],
+            "npc" : [
+                {
+                    "x":7,
+                    "y":6,
+                    "conversation": "please kill all the monster to free the dungeon, there's a sword that can help you to conquer the dungeon."
+                }
+            ],
+            "monsters" : [],
             "portals" : [
                 {
                     "x":5,
                     "y":9,
-                    "to":1
+                    "to":1,
+                    "to_x":2,
+                    "to_y":1
                 }
             ]
         },
         {
-            "map": "res/maps/map1.json",
+            "map": "res/maps/map2.json",
             "walls": [
-                {
-                    "x":0,
-                    "y":0,
-                    "width":1,
-                    "height":10
-                },
                 {
                     "x":1,
                     "y":0,
-                    "width":9,
+                    "width":1,
+                    "height":1
+                },
+                {
+                    "x":3,
+                    "y":0,
+                    "width":6,
                     "height":1
                 },
                 {
                     "x":9,
                     "y":1,
                     "width":1,
-                    "height":9
+                    "height":1
+                },
+                {
+                    "x":9,
+                    "y":3,
+                    "width":1,
+                    "height":6
                 },
                 {
                     "x":1,
                     "y":9,
-                    "width":4,
+                    "width":8,
+                    "height":1
+                },
+                {
+                    "x":0,
+                    "y":1,
+                    "width": 1,
+                    "height":8
+                },
+                {
+                    "x":2,
+                    "y":7,
+                    "width": 7,
+                    "height":1
+                }
+            ],
+            "treasures" : [
+                {
+                    "x":7,
+                    "y":0,
+                    "width":1,
+                    "height":1,
+                    "item":[1]
+                }
+            ],
+            "npc" : [
+                {
+                    "x":8,
+                    "y":5,
+                    "conversation": "elfs are suffered from these monsters! please help our king, he is in the deepest area of the dungeon."
+                }
+            ],
+            "monsters" : [
+                {
+                    "x":5,
+                    "y":4,
+                    "damage": 5,
+                    "armor": 5,
+                    "hp": 40,
+                    "attack_speed": 0.75
+                }
+            ],
+            "portals" : [
+                {
+                    "x":2,
+                    "y":0,
+                    "to":0,
+                    "to_x":5,
+                    "to_y":8
+                },
+                {
+                    "x":9,
+                    "y":2,
+                    "to":3,
+                    "to_x":1,
+                    "to_y":2
+                },
+                {
+                    "x":8,
+                    "y":8,
+                    "to":2,
+                    "to_x":8,
+                    "to_y":8
+                }
+            ]
+        },
+        {
+            "map": "res/maps/map3.json",
+            "walls": [
+                {
+                    "x":1,
+                    "y":0,
+                    "width":6,
+                    "height":1
+                },
+                {
+                    "x":0,
+                    "y":1,
+                    "width":1,
+                    "height":8
+                },
+                {
+                    "x":1,
+                    "y":9,
+                    "width":8,
+                    "height":1
+                },
+                {
+                    "x":9,
+                    "y":1,
+                    "width":1,
+                    "height":8
+                },
+                {
+                    "x":8,
+                    "y":0,
+                    "width":1,
+                    "height":1
+                },
+                {
+                    "x":3,
+                    "y":3,
+                    "width": 1,
+                    "height":1
+                },
+                {
+                    "x":7,
+                    "y":3,
+                    "width": 1,
+                    "height":1
+                },
+                {
+                    "x":2,
+                    "y":6,
+                    "width": 1,
                     "height":1
                 },
                 {
                     "x":6,
-                    "y":9,
-                    "width":4,
-                    "height":1
-                },
-                {
-                    "x":4,
-                    "y":4,
-                    "width":4,
+                    "y":6,
+                    "width": 1,
                     "height":1
                 }
             ],
-            "treasure" : [
+            "treasures" : [
                 {
-                    "x":7,
-                    "y":0,
-                    "item":[0]
+                    "x":1,
+                    "y":1,
+                    "width":1,
+                    "height":1,
+                    "item":[2]
                 }
             ],
             "npc" : [],
-            "monster" : [],
-            "portals" : [
+            "monsters" : [
+                {
+                    "x":4,
+                    "y":3,
+                    "damage": 5,
+                    "armor": 5,
+                    "hp": 45,
+                    "attack_speed": 0.75
+                },
+                {
+                    "x":6,
+                    "y":4,
+                    "damage": 5,
+                    "armor": 5,
+                    "hp": 45,
+                    "attack_speed": 0.75
+                },
                 {
                     "x":5,
+                    "y":6,
+                    "damage": 5,
+                    "armor": 5,
+                    "hp": 45,
+                    "attack_speed": 0.75
+                },
+                {
+                    "x":3,
+                    "y":5,
+                    "damage": 5,
+                    "armor": 5,
+                    "hp": 45,
+                    "attack_speed": 0.75
+                }
+            ],
+            "portals" : [
+                {
+                    "x":7,
+                    "y":0,
+                    "to":3,
+                    "to_x":7,
+                    "to_y":8
+                }
+            ]
+        },
+        {
+            "map": "res/maps/map4.json",
+            "walls": [
+                {
+                    "x":1,
                     "y":9,
-                    "to":0
+                    "width":6,
+                    "height":1
+                },
+                {
+                    "x":8,
+                    "y":1,
+                    "width":1,
+                    "height":9
+                },
+                {
+                    "x":1,
+                    "y":0,
+                    "width":7,
+                    "height":1
+                },
+                {
+                    "x":0,
+                    "y":1,
+                    "width":3,
+                    "height":1
+                },
+                {
+                    "x":2,
+                    "y":2,
+                    "width":1,
+                    "height":1
+                },
+                {
+                    "x":0,
+                    "y":3,
+                    "width": 3,
+                    "height":0
+                },
+                {
+                    "x":0,
+                    "y":4,
+                    "width": 1,
+                    "height":5
+                },
+                {
+                    "x":1,
+                    "y":7,
+                    "width": 1,
+                    "height":1
+                },
+                {
+                    "x":5,
+                    "y":7,
+                    "width": 3,
+                    "height":1
+                }
+            ],
+            "treasures" : [],
+            "npc" : [
+                {
+                    "x":5,
+                    "y":1,
+                    "conversation": "thank you for your help! you saved our life."
+                }
+            ],
+            "monsters" : [
+                {
+                    "x":4,
+                    "y":3,
+                    "damage": 20,
+                    "armor": 10,
+                    "hp": 100,
+                    "attack_speed": 1
+                },
+                {
+                    "x":2,
+                    "y":5,
+                    "damage": 10,
+                    "armor": 5,
+                    "hp": 40,
+                    "attack_speed": 1
+                },
+                {
+                    "x":6,
+                    "y":5,
+                    "damage": 10,
+                    "armor": 5,
+                    "hp": 40,
+                    "attack_speed": 1
+                },
+                {
+                    "x":4,
+                    "y":5,
+                    "damage": 10,
+                    "armor": 5,
+                    "hp": 40,
+                    "attack_speed": 1
+                }
+            ],
+            "portals" : [
+                {
+                    "x":0,
+                    "y":2,
+                    "to":1,
+                    "to_x":8,
+                    "to_y":2
+                },
+                {
+                    "x":7,
+                    "y":9,
+                    "to":2,
+                    "to_x":7,
+                    "to_y":1
                 }
             ]
         }
@@ -118,15 +396,27 @@
     "items": [
         {
             "name": "wooden sword",
-            "type": "weapon",
+            "type": 0,
             "damage": 10,
-            "defense": 0
+            "armor": 0
         },
         {
             "name": "wooden shield",
-            "type": "weapon",
+            "type": 0,
             "damage": 0,
-            "defense": 10
+            "armor": 10
+        },
+        {
+            "name": "strength ring",
+            "type": 0,
+            "damage": 5,
+            "armor": 5
+        },
+        {
+            "name": "dead curse",
+            "type": 0,
+            "damage": -5,
+            "armor": -5
         }
     ]
 }

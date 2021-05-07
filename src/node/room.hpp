@@ -24,8 +24,8 @@ class Room{
 		vector<rect> wall_list;
 		vector<json> layer_list;
 		vector<portal> portal_list;
-		vector<npc> npc_list;
-		vector<monster> monster_list;
+		vector<npc*> npc_list;
+		vector<monster*> monster_list;
 		vector<treasure> treasure_list;
 
 		bool can_move(rect src);
@@ -33,7 +33,7 @@ class Room{
 		~Room();
 
 		void action();
-		void enter();
+		void enter(vector_d init_pos);
 };
 }
 #endif

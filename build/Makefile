@@ -278,6 +278,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/node/item.o: src/node/item.cpp.o
+
+.PHONY : src/node/item.o
+
+# target to build an object file
+src/node/item.cpp.o:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/node/item.cpp.o
+.PHONY : src/node/item.cpp.o
+
+src/node/item.i: src/node/item.cpp.i
+
+.PHONY : src/node/item.i
+
+# target to preprocess a source file
+src/node/item.cpp.i:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/node/item.cpp.i
+.PHONY : src/node/item.cpp.i
+
+src/node/item.s: src/node/item.cpp.s
+
+.PHONY : src/node/item.s
+
+# target to generate assembly for a file
+src/node/item.cpp.s:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/node/item.cpp.s
+.PHONY : src/node/item.cpp.s
+
 src/node/monster.o: src/node/monster.cpp.o
 
 .PHONY : src/node/monster.o
@@ -546,6 +573,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/node/item.o"
+	@echo "... src/node/item.i"
+	@echo "... src/node/item.s"
 	@echo "... src/node/monster.o"
 	@echo "... src/node/monster.i"
 	@echo "... src/node/monster.s"

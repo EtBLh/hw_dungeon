@@ -10,4 +10,6 @@ namespace Dungeon{
     const int   PLAYER_DEFAULT_HP   = 100,
                 PLAYER_DEFAULT_MANA = 20,
                 BLOCK_WIDTH         = 16;
+    const int TILE_LENGTH = 16, TILE_COL = 13, TILE_NUM = 78;
+
 }

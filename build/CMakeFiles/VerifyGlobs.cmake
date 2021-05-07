@@ -118,6 +118,7 @@ endif()
 # root_dir at CMakeLists.txt:34 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/etblh/Documents/workspace/hw_dungeon/src/node/*.cpp")
 set(OLD_GLOB
+  "/Users/etblh/Documents/workspace/hw_dungeon/src/node/item.cpp"
   "/Users/etblh/Documents/workspace/hw_dungeon/src/node/monster.cpp"
   "/Users/etblh/Documents/workspace/hw_dungeon/src/node/npc.cpp"
   "/Users/etblh/Documents/workspace/hw_dungeon/src/node/player.cpp"

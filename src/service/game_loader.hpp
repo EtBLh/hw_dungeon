@@ -7,8 +7,7 @@
 using namespace nlohmann;
 
 namespace Dungeon{
-class game_loader  
-{
+class game_loader  {
 	private:
 		json root;
 		json room_list;
@@ -16,7 +15,6 @@ class game_loader
 		Dto& dto = Dto::getInstance();
 	public:
 		game_loader();
-		~game_loader();
 
 };
 }

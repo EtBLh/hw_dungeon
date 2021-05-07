@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Dungeon.dir/src/dto.cpp.o"
   "CMakeFiles/Dungeon.dir/src/input_reader.cpp.o"
   "CMakeFiles/Dungeon.dir/src/main.cpp.o"
+  "CMakeFiles/Dungeon.dir/src/node/item.cpp.o"
   "CMakeFiles/Dungeon.dir/src/node/monster.cpp.o"
   "CMakeFiles/Dungeon.dir/src/node/npc.cpp.o"
   "CMakeFiles/Dungeon.dir/src/node/player.cpp.o"

@@ -7,6 +7,7 @@
 #include <cstring>
 #include <functional>
 #include "const.h"
+#include <cmath>
 
 using namespace nlohmann;
 using namespace std;
@@ -46,6 +47,13 @@ namespace Dungeon{
                 rect1.x + rect1.width > rect2.x &&
                 rect1.y < rect2.y + rect2.height &&
                 rect1.y + rect1.height > rect2.y);
+    };
+    const auto distance = [](rect rect1, rect rect2) -> float{
+        vector_d pos1((rect1.x+rect1.width)/2,
+                      (rect1.y+rect1.height)/2);
+        vector_d pos2((rect2.x+rect2.width)/2,
+                      (rect2.y+rect2.height)/2);
+        return sqrt(pow(pos1.x-pos2.x,2) + pow(pos1.y-pos2.y,2));
     };
     const auto load_json_file = [](string path) -> json{
         ifstream input(path);
