@@ -1,4 +1,4 @@
-# Dungeon
+# [Dungeon](https://github.com/EtBLh/hw_dungeon)
 <div style="text-align:center">Little game creator, DS-OOP Course project; <br>
 Done by 109550185, 李佳駿</div>
 
@@ -152,3 +152,7 @@ If i have time (mostly not), i will probrably finished features listed below:
 - Abilities
 - Customized Inventory
 - Etc
+
+## Contributing
+
+**[hw_dungeon](https://github.com/EtBLh/hw_dungeon)**: Github repository, welcome PR from anyone.
