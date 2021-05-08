@@ -10,11 +10,10 @@ namespace Dungeon{
     class Controller{
     private:
         Dto& dto = Dto::getInstance();
-        sf::RenderWindow* window = 
-            new sf::RenderWindow(sf::VideoMode(WINDOW_WIDTH,WINDOW_HEIGHT), "Dungeon");
+        sf::RenderWindow* window;
         View* view = nullptr;
     public:
-        Controller(View* view) : view(view) {};
+        Controller(View* view) : view(view), window(view->window) {};
         void game_start();
         void game_over();
     };

@@ -75,3 +75,16 @@ int Player::real_armor(){
     }
     return _real_armor;
 }
+
+void Player::show_status(){
+    string content;
+    content += "Health ";
+    content += to_string(hp);
+    content += "\n";
+    content += "Damage ";
+    content += to_string(real_damage());
+    content += "\n";
+    content += "Armor  ";
+    content += to_string(real_armor());
+    dto.talk(content);
+}

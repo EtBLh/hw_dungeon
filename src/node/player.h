@@ -29,6 +29,7 @@ namespace Dungeon{
         void trigger_event(Event* event);
         void character_loop() {}; 
         void die();
+        void show_status();
         friend class game_saver;
     };
 }

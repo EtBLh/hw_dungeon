@@ -24,6 +24,9 @@ void input_reader::read(){
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::B)){
         gs->save();
     }
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::P)){
+        dto.player->show_status();
+    }
     bool move_input[4] = {
         sf::Keyboard::isKeyPressed(sf::Keyboard::D),
         sf::Keyboard::isKeyPressed(sf::Keyboard::S),

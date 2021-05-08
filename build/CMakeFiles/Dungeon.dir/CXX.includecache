@@ -56,6 +56,16 @@ character.h
 ../dto.h
 /Users/etblh/Documents/workspace/hw_dungeon/src/dto.h
 
+/Users/etblh/Documents/workspace/hw_dungeon/src/node/player.cpp
+player.h
+/Users/etblh/Documents/workspace/hw_dungeon/src/node/player.h
+room.hpp
+/Users/etblh/Documents/workspace/hw_dungeon/src/node/room.hpp
+iostream
+-
+cmath
+-
+
 /Users/etblh/Documents/workspace/hw_dungeon/src/node/player.h
 character.h
 /Users/etblh/Documents/workspace/hw_dungeon/src/node/character.h
@@ -104,26 +114,6 @@ item.hpp
 ../util.hpp
 /Users/etblh/Documents/workspace/hw_dungeon/src/util.hpp
 vector
--
-
-/Users/etblh/Documents/workspace/hw_dungeon/src/service/game_loader.cpp
-game_loader.hpp
-/Users/etblh/Documents/workspace/hw_dungeon/src/service/game_loader.hpp
-../node/room.hpp
-/Users/etblh/Documents/workspace/hw_dungeon/src/node/room.hpp
-../node/player.h
-/Users/etblh/Documents/workspace/hw_dungeon/src/node/player.h
-../util.hpp
-/Users/etblh/Documents/workspace/hw_dungeon/src/util.hpp
-../dto.h
-/Users/etblh/Documents/workspace/hw_dungeon/src/dto.h
-nlohmann/json.hpp
--
-
-/Users/etblh/Documents/workspace/hw_dungeon/src/service/game_loader.hpp
-../dto.h
-/Users/etblh/Documents/workspace/hw_dungeon/src/dto.h
-nlohmann/json.hpp
 -
 
 /Users/etblh/Documents/workspace/hw_dungeon/src/util.hpp

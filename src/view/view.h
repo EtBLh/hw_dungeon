@@ -11,12 +11,12 @@ namespace Dungeon{
     private:
         Dto& dto = Dto::getInstance();
         sprite_loader _sprite_loader;
-        sf::RenderWindow* window;
         sf::Font font;
         void draw_map_layer(json layer);
         void draw_character(Character* charac);
         void draw_particle(particle* partic);
     public:
+        sf::RenderWindow* window;
         void render();
         View(sf::RenderWindow* window) : window(window) {
             dto._sprite_loader = &_sprite_loader;
