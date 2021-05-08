@@ -146,6 +146,7 @@ endif()
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/etblh/Documents/workspace/hw_dungeon/src/service/*.cpp")
 set(OLD_GLOB
   "/Users/etblh/Documents/workspace/hw_dungeon/src/service/game_loader.cpp"
+  "/Users/etblh/Documents/workspace/hw_dungeon/src/service/game_saver.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

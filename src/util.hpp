@@ -57,9 +57,10 @@ namespace Dungeon{
     };
     const auto load_json_file = [](string path) -> json{
         ifstream input(path);
-        json _json;
-        input >> _json;
-        return _json;
+        if (!input) return json();
+        json __json;
+        input >> __json;
+        return __json;
     };
 }
 

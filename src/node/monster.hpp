@@ -20,7 +20,7 @@ class monster : public Character{
 				sprite = &(dto._sprite_loader->monster);
 			};
 		~monster();
-
+		friend class game_saver;
 };
 }
 #endif

@@ -9,8 +9,9 @@
 using namespace std;
 
 void Dungeon::Controller::game_start(){
-    input_reader ir;
     game_loader gl;
+    game_saver gs(&gl);
+    input_reader ir(&gs);
     dto.set_game_state(true);
     view = new View(window);
 
@@ -32,6 +33,19 @@ void Dungeon::Controller::game_start(){
         dto._sprite_loader->kill_particles();
         view->render();
         ir.read();
+
+        if (!dto.win){
+            bool win = true;
+            for (Room* _room : dto.room_list){
+                for (monster* _monster : _room->monster_list){
+                    win = false;
+                }
+            }
+            if (win) {
+                dto.win = true;
+                dto.talk("you have free the dungeon!");
+            }
+        }
         if (!dto.get_game_state()) game_over();
     }
 }

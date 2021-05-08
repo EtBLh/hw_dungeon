@@ -30,6 +30,12 @@ namespace Dungeon{
             vector<item*> item_list;
             sprite_loader* _sprite_loader;
 
+            bool is_talking = false;
+            string talk_content = "";
+
+            void talk(string content);
+            bool win = false;
+
         private:
             Dto() {};
             bool game_state = false;

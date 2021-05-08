@@ -34,6 +34,7 @@ class Room{
 
 		void action();
 		void enter(vector_d init_pos);
+		friend class game_saver;
 };
 }
 #endif

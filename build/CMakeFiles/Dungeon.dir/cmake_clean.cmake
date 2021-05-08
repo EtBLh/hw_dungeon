@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Dungeon.dir/src/node/room.cpp.o"
   "CMakeFiles/Dungeon.dir/src/node/treasure.cpp.o"
   "CMakeFiles/Dungeon.dir/src/service/game_loader.cpp.o"
+  "CMakeFiles/Dungeon.dir/src/service/game_saver.cpp.o"
   "CMakeFiles/Dungeon.dir/src/view/sprite_loader.cpp.o"
   "CMakeFiles/Dungeon.dir/src/view/view.cpp.o"
   "Dungeon.pdb"

@@ -4,6 +4,7 @@
 
 #include <SFML/Graphics.hpp>
 #include "dto.h"
+#include "service/game_saver.hpp"
 #include "util.hpp"
 
 namespace Dungeon{	
@@ -16,9 +17,10 @@ class input_reader{
 			new vector_d(-0.02,0),
 			new vector_d(0,-0.02),
 		};
+		game_saver* gs = nullptr;
 	public:
 		void read();
-		input_reader();
+		input_reader(game_saver* gs);
 		~input_reader();
 		
 

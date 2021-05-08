@@ -3,6 +3,7 @@
 #include "view/view.h"
 #include "const.h"
 #include "node/player.h"
+#include "service/game_saver.hpp"
 #include <SFML/graphics.hpp>
 
 namespace Dungeon{
@@ -13,7 +14,7 @@ namespace Dungeon{
             new sf::RenderWindow(sf::VideoMode(WINDOW_WIDTH,WINDOW_HEIGHT), "Dungeon");
         View* view = nullptr;
     public:
-        Controller(View* view) : view(view) { dto.player = new Player(); };
+        Controller(View* view) : view(view) {};
         void game_start();
         void game_over();
     };

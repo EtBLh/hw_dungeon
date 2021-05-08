@@ -7,8 +7,7 @@ using namespace Dungeon;
 void npc::trigger_event(Event* ev){
     switch(ev->type){
         case event_type::damage:{
-            cout << "you dare attack me! I curse you to death." << endl;
-            cout << "got dead curse" << endl;
+            dto.talk("you dare attack me! I curse you to death.");
             dto.player->inventory.push_back(dto.item_list[3]);
             die();
         }
@@ -17,7 +16,7 @@ void npc::trigger_event(Event* ev){
 
 void npc::character_loop(){
     if (!talked && distance(rect(dto.player->pos,1,1),rect(pos,1,1))<=1){
-        cout << conversation << endl;
+        dto.talk(conversation);
         talked = true;
     }
 }

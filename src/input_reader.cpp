@@ -6,16 +6,24 @@
 	
 using namespace Dungeon;
 
-input_reader::input_reader()
-{
-	
-}
+input_reader::input_reader(game_saver* gs) : gs(gs) {};
 	
 input_reader::~input_reader()
 {
 }
 
 void input_reader::read(){
+    if (dto.is_talking){
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Enter)){
+            dto.is_talking = false;
+            dto.talk_content = "";
+        } else {
+            return;
+        }
+    }
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::B)){
+        gs->save();
+    }
     bool move_input[4] = {
         sf::Keyboard::isKeyPressed(sf::Keyboard::D),
         sf::Keyboard::isKeyPressed(sf::Keyboard::S),

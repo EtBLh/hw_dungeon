@@ -1,4 +1,14 @@
 {
+    "player":{
+        "room":0,
+        "x":2,
+        "y":2,
+        "hp":50,
+        "damage":5,
+        "armor":0,
+        "attack_speed": 0.75,
+        "inventory":[]
+    },
     "room_list": [
         {
             "map": "res/maps/map1.json",
@@ -42,14 +52,14 @@
             ],
             "treasures" : [
                 {
-                    "x":7,
+                    "x":8,
                     "y":0,
                     "width":1,
                     "height":1,
                     "item":[0]
                 }
             ],
-            "npc" : [
+           "npc" : [
                 {
                     "x":7,
                     "y":6,
@@ -115,7 +125,7 @@
             ],
             "treasures" : [
                 {
-                    "x":7,
+                    "x":8,
                     "y":0,
                     "width":1,
                     "height":1,
@@ -396,27 +406,23 @@
     "items": [
         {
             "name": "wooden sword",
-            "type": 0,
             "damage": 10,
             "armor": 0
         },
         {
             "name": "wooden shield",
-            "type": 0,
             "damage": 0,
             "armor": 10
         },
         {
             "name": "strength ring",
-            "type": 0,
             "damage": 5,
             "armor": 5
         },
         {
             "name": "dead curse",
-            "type": 0,
-            "damage": -5,
-            "armor": -5
+            "damage": -10,
+            "armor": -10
         }
     ]
 }

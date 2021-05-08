@@ -23,7 +23,7 @@ class npc : public Character{
 		void character_loop();
 		void die();
 		~npc();
-
+		friend class game_saver;
 };
 }
 #endif

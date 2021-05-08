@@ -61,11 +61,6 @@
 },
 {
   "directory": "/Users/etblh/Documents/workspace/hw_dungeon/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -DJSON_USE_IMPLICIT_CONVERSIONS=1 -I/Users/etblh/Documents/workspace/hw_dungeon/build -I/Users/etblh/Documents/workspace/hw_dungeon/include -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=c++11 -o CMakeFiles/Dungeon.dir/src/service/game_saver.cpp.o -c /Users/etblh/Documents/workspace/hw_dungeon/src/service/game_saver.cpp",
-  "file": "/Users/etblh/Documents/workspace/hw_dungeon/src/service/game_saver.cpp"
-},
-{
-  "directory": "/Users/etblh/Documents/workspace/hw_dungeon/build",
   "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -DJSON_USE_IMPLICIT_CONVERSIONS=1 -I/Users/etblh/Documents/workspace/hw_dungeon/build -I/Users/etblh/Documents/workspace/hw_dungeon/include -isystem /usr/local/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=c++11 -o CMakeFiles/Dungeon.dir/src/view/sprite_loader.cpp.o -c /Users/etblh/Documents/workspace/hw_dungeon/src/view/sprite_loader.cpp",
   "file": "/Users/etblh/Documents/workspace/hw_dungeon/src/view/sprite_loader.cpp"
 },

@@ -494,6 +494,33 @@ src/service/game_loader.cpp.s:
 	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/service/game_loader.cpp.s
 .PHONY : src/service/game_loader.cpp.s
 
+src/service/game_saver.o: src/service/game_saver.cpp.o
+
+.PHONY : src/service/game_saver.o
+
+# target to build an object file
+src/service/game_saver.cpp.o:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/service/game_saver.cpp.o
+.PHONY : src/service/game_saver.cpp.o
+
+src/service/game_saver.i: src/service/game_saver.cpp.i
+
+.PHONY : src/service/game_saver.i
+
+# target to preprocess a source file
+src/service/game_saver.cpp.i:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/service/game_saver.cpp.i
+.PHONY : src/service/game_saver.cpp.i
+
+src/service/game_saver.s: src/service/game_saver.cpp.s
+
+.PHONY : src/service/game_saver.s
+
+# target to generate assembly for a file
+src/service/game_saver.cpp.s:
+	$(MAKE) -f CMakeFiles/Dungeon.dir/build.make CMakeFiles/Dungeon.dir/src/service/game_saver.cpp.s
+.PHONY : src/service/game_saver.cpp.s
+
 src/view/sprite_loader.o: src/view/sprite_loader.cpp.o
 
 .PHONY : src/view/sprite_loader.o
@@ -597,6 +624,9 @@ help:
 	@echo "... src/service/game_loader.o"
 	@echo "... src/service/game_loader.i"
 	@echo "... src/service/game_loader.s"
+	@echo "... src/service/game_saver.o"
+	@echo "... src/service/game_saver.i"
+	@echo "... src/service/game_saver.s"
 	@echo "... src/view/sprite_loader.o"
 	@echo "... src/view/sprite_loader.i"
 	@echo "... src/view/sprite_loader.s"

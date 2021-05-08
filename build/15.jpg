@@ -43,7 +43,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       -add_rpath "/usr/local/lib"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Dungeon")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/strip" -u -r "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Dungeon")
+      execute_process(COMMAND "/usr/bin/strip" -u -r "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Dungeon")
     endif()
   endif()
 endif()

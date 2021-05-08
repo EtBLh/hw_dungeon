@@ -10,13 +10,10 @@ void Player::trigger_event(Event* event){
     switch(event->type){
         case event_type::damage:{
             damage_event* d_ev = dynamic_cast<damage_event*>(event);
-            int real_armor = armor;
-            for (item* it : inventory){
-                real_armor += it->armor;
-            }
-            if (damage > real_armor) this->hp -= damage - real_armor;
+
+            if (damage > real_armor()) this->hp -= damage - real_armor();
             if (hp <= 0) die();
-            cout << "took " << d_ev->amount << " damage, current health: " << hp << endl;
+            cout << "took " << d_ev->amount << " damage, armor: " << real_armor() << ", health remain " << hp << endl;
             break;
         }
         case event_type::move:{
@@ -28,13 +25,9 @@ void Player::trigger_event(Event* event){
             clock_t now = clock();
             if (now - last_attack <= attack_cd) return;
             last_attack = now;
-            int real_damage = damage;
-            for (item* it : inventory){
-                real_damage += it->damage;
-            }
             for (monster* _monster : dto.current_room->monster_list){
                 if (distance(rect(_monster->pos,1,1),rect(pos,1,1))<= 1){
-                    damage_event* de = new damage_event(real_damage);
+                    damage_event* de = new damage_event(real_damage());
                     _monster->trigger_event(de);
                     dto._sprite_loader->add_particle(particle_type::advanced,_monster->pos);
                 }
@@ -62,6 +55,23 @@ void Player::move(vector_d vec){
 }
 
 void Player::die(){
-    cout << "your dead." << endl;
+    // cout << "your dead." << endl;
+    dto.talk("you are dead.");
     dto.set_game_state(false);
+}
+
+int Player::real_damage(){
+    int _real_damage = damage;
+    for (item* it : inventory){
+        _real_damage += it->damage;
+    }
+    return _real_damage;
+}
+
+int Player::real_armor(){
+    int _real_armor = armor;
+    for (item* it : inventory){
+        _real_armor += it->armor;
+    }
+    return _real_armor;
 }

@@ -19,6 +19,7 @@ class treasure {
 			pos(pos), collide_box(rect(pos, width, height)) {};
 		void add_item(int index);
 		~treasure();
+		friend class game_saver;
 
 };
 }

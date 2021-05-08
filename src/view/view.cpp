@@ -32,6 +32,20 @@ void View::render(){
     for (particle* partic : _sprite_loader.particle_pool){
         draw_particle(partic);
     }
+
+    if (dto.is_talking){
+        sf::RectangleShape base(sf::Vector2f(9*TILE_LENGTH*SCALER,3*TILE_LENGTH*SCALER));
+        base.setFillColor(sf::Color(0,0,0,0xDD));
+        base.setPosition(sf::Vector2f(0.5*SCALER*TILE_LENGTH,6*TILE_LENGTH*SCALER));
+        sf::Text text;
+        text.setFont(font);
+        text.setString(dto.talk_content);
+        text.setCharacterSize(TILE_LENGTH*SCALER/3);
+        text.setFillColor(sf::Color::White);
+        text.setPosition(sf::Vector2f(1*SCALER*TILE_LENGTH,6.2*TILE_LENGTH*SCALER));
+        window->draw(base);
+        window->draw(text);
+    }
     
     this->window->display();
 }

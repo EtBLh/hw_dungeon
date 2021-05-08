@@ -50,9 +50,9 @@ void Room::read(){
         json data = *it;
         monster* _monster = new monster(
             vector_d(data["x"],data["y"]),
+            data["hp"],
             data["damage"],
             data["armor"],
-            data["hp"],
             data["attack_speed"]
         );
         this->monster_list.push_back(_monster);
@@ -103,7 +103,7 @@ void Room::action(){
                 if (_it->got) continue;
                 dto.player->inventory.push_back(_it);
                 _it->got = true;
-                cout << "got " << _it->name << endl;
+                dto.talk("got " + _it->name);
             }
     }
 }

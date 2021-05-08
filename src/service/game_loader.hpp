@@ -15,7 +15,7 @@ class game_loader  {
 		Dto& dto = Dto::getInstance();
 	public:
 		game_loader();
-
+		friend class game_saver;
 };
 }
 #endif
