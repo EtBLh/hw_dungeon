@@ -15,7 +15,7 @@ cd <build directory>
 
 ## Feature
 
-- **Customizability**: This program is techically not a game, but a game creator, create games by reading a JSON file, providing extreme flexibility and inifinte possibilities;
+- **Customizability**: **Dungeon** is techically not a game, but a game creator, create games by reading a JSON file, providing extreme flexibility and inifinte possibilities;
   - To customize your own game, modify ``res/game.json`` in correct syntax and create your own map in **[Tiled](https://www.mapeditor.org/)**.
 - **Save**: Press B to save the game in ``save.json``, the program will read the ``save.json`` file as its game rather than ``res/game.json`` when ``save.json`` exists;
 - **Move**: use WASD to move;
@@ -53,7 +53,7 @@ There's two type of runtime dependencies, assets and game files.
 
 ## Game.json syntax
 
-Creating game for this program have to follow the correct syntax:
+Creating game for **Dungeon** have to follow the correct syntax:
 
 ```json
 {
@@ -112,7 +112,7 @@ sub-objects of *room*:
 
 ## Development
 
-This program uses **[Cmake](https://cmake.org/)** to generate makefile for compiling, thereotically the program is cross-platform, but it is solely tested on OS X.
+**Dungeon** uses **[Cmake](https://cmake.org/)** to generate makefile for compiling, thereotically the program is cross-platform, but it is solely tested on OS X.
 
 ### Project Structure
 
